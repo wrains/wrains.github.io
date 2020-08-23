@@ -5,3 +5,12 @@ body
     color: white;
 }
 
+.image-blurred-edge {
+    background-image: url('https://lh3.googleusercontent.com/7oj6cDH02AFbsnVIgQPgerjSC3yGFKLv4uKyxADZN2IMSUum1OxemCXZg_DLp9v1q0IXN6ZizXAWIUESA62nSfnvGw778LXrGU1CQkxfCzDy1NT6yPqmk61c0SlrMwqP_gRvPRa3Nlk=w600-h315-p-k');
+    width: 600px;
+    height: 300px;
+    box-shadow: 0 0 8px 8px rgb(34, 50, 78) inset;
+  margin-left: auto;
+    margin-right: auto;
+}
+
