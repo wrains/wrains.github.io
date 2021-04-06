@@ -1,12 +1,15 @@
 .IntroRow {
-	background-color: lightgreen;
-	height: 100%;
+	background-size: contain;
+	background-image: url("https://lh3.googleusercontent.com/knxiHhcKfkWt9kPXeNOS9Id7TK3rM-_ircKGUaLQ4E2ruyfSfc8BtEStFrrhxDAVfR2e4qh8XLjGronTCj3-BbrveSLT0qSbg1yeBzZ-Qs8gB_N5qC2L6cDXvvHRJyqUfE7cLs67W6o=w2400");
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-
-
+.willheadshot {
+	width: 60%;
+	length: auto;
+	
+}
 
 
