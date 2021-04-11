@@ -1,15 +1,31 @@
-.IntroRow {
-	background-size: contain;
-	background-image: url("https://lh3.googleusercontent.com/knxiHhcKfkWt9kPXeNOS9Id7TK3rM-_ircKGUaLQ4E2ruyfSfc8BtEStFrrhxDAVfR2e4qh8XLjGronTCj3-BbrveSLT0qSbg1yeBzZ-Qs8gB_N5qC2L6cDXvvHRJyqUfE7cLs67W6o=w2400");
+.body1 {
 	display: flex;
+	
+	
+}
+
+.IntroContainer {
+	background-image: url("https://cdn.hipwallpaper.com/m/25/77/POongK.gif");
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.col1 {
+	display: flex;
+	
+	
 }
 
 .willheadshot {
-	width: 60%;
-	length: auto;
-	
+  min-width: 0;
+	max-width: 100%;
+  flex-grow:1;
+	flex-shrink:1;
 }
 
 
