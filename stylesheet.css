@@ -1,6 +1,6 @@
 #logo {
 	position: fixed;
-	width: 5vw;
+	width: 8vw;
 	height: auto;
 }
 
@@ -10,12 +10,27 @@
 	flex-direction: row;
 	height: 100vh;
 	align-items:center;
-	
+	justify-content: space-evenly;
 }
 
-.willheadshot {
- 
+#will_pic1 {
+	order 1;
+	width: 15vw;
+	height: auto;
+	border-radius: .5vw;
 }
 
+#firstPgTxt {
+	order: 2;
+	color: white;
+	font-size: 3vw;
+	font-family: tahoma;
+}
 
-
+#page2container {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	align-items:center;
+	justify-content: space-evenly;
+}
