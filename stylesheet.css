@@ -39,12 +39,12 @@
 
 .projectbox {
 	width: 20vw;
-	height: 35vh;
+	height: 30vh;
 	background-color: green;
 }
 
 
 #projectpagehead {
-	width: 90vw;
-
+	width: 80vw;
+	order: 1;
 }
