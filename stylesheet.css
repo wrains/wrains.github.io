@@ -46,7 +46,6 @@
 	width: 100vw;
 	height: 15vh;
 	order: 1;
-	background-color: salmon;
 	text-align: center;
 	font-family: tahoma;
 
@@ -62,7 +61,6 @@
 	display: flex;
 	justify-content: space-evenly;
 	order: 22;
-	background-color: seagreen;
 	opacity: 50%;
 	width: 100vw;
 }
@@ -71,25 +69,24 @@
 .projectbox {
 	width: 22vw;
 	height: 40vh;
+	background-color: slategrey;
+	opacity: 50%;
 }
 
 
 #box1 {
-	background-color: green;
 	order: 23;
 
 }
 
 
 #box2 {
-	background-color: yellow;
 	order: 24;
 
 }
 
 
 #box3 {
-	background-color: red;
 	order: 25;
 
 }
