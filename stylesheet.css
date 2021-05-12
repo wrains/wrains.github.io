@@ -91,3 +91,37 @@
 
 }
 
+@media only screen and (max-width: 768px) {
+	.page1Container {
+		flex-wrap: wrap;
+
+
+	}
+
+	#will_pic {
+		width: 60vw;
+		height: auto;
+
+
+	}
+
+	#firstPgTxt {
+		width: 50vw;
+		height: auto;
+
+	}
+
+	#page2container {
+
+		height: 250vh;
+
+
+	}
+		
+	.projectbox {
+		width: 51vw;
+		height: 90vh;
+	}
+
+
+}
