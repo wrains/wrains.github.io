@@ -10,11 +10,76 @@
 .page1Container {
 	background-color: #020403;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	height: 100vh;
+	margin: -1vw;
+	justify-content: center;
+	text-align: center;
+}
+
+
+
+.topnav {
+	background-color: #020403;
+	display: flex;
+	flex-direction: row;
+	height: 5vh;
+	align-self: flex-start;
+	justify-content: center;
+	text-align: center;
+	margin: -1vw;
+	
+	font-family: tahoma;
+
+}
+
+
+.topnav a {
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	font-size: 1.5vh;
+	
+
+}
+
+.topnav .active {
+	color: #00cdeb;
+
+
+}
+
+
+#firsta {
+	border-right: 1px solid white;
+	
+
+}
+
+#seconda {
+	border-right: 1px solid white;
+
+}
+
+#thirda {
+	order: inherit;
+
+}
+
+#break1 {
+	order: 2;
+	flex-basis: 100%;
+
+	
+}
+
+
+.PicandTextcontainer {
+	display: flex;
 	align-items:center;
 	justify-content: space-evenly;
-	margin: -1vw;
+	order: 3;
 }
 
 
@@ -94,7 +159,14 @@
 
 @media only screen and (max-width: 768px) {
 	
-	.page1Container {
+	.topnav {
+
+
+
+	}
+	
+	
+	.PicandTextcontainer {
 		flex-wrap: wrap;
 		display: flex;
 	
