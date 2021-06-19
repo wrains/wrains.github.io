@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+
+
+#main {
+  
+  height: inherit;
+  
+}
+
+#title {
+  font-family: 'Megrim', sans-serif;
+  font-size: 3.5vw;
+  text-align:center;
+  position: block;
+}
+
+
+#title_text {
+  text-align:center;
+  display: block;
+  
+}
+
+#img-div {
+  margin: auto;
+  display: block;
+  top: 50px;
+  width:80%;
+  background-color: #d3d3d3;
+  
+}
+
+
+#flex_div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+
+#tribute-info {
+  display: block;
+  width:100vw;
+  text-align: center;
+}
+
+
+#tribute-link {
+  display: block;
+  margin: auto;
+  text-align: center;
+  
+}
+
+
+.catpics {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+}
