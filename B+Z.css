@@ -7,6 +7,55 @@
   
 }
 
+
+.topnav {
+	display: flex;
+	flex-direction: row;
+	height: 5vh;
+	align-self: flex-start;
+	justify-content: center;
+	text-align: center;
+	margin: -1vw;
+	
+	font-family: tahoma;
+
+}
+
+
+.topnav a {
+  	color: black;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	font-size: 1.5vh;
+	
+
+}
+
+.topnav .active {
+	color: #00cdeb;
+
+
+}
+
+
+#firsta {
+	border-right: 1px solid black;
+	
+
+}
+
+#seconda {
+	border-right: 1px solid black;
+
+}
+
+#thirda {
+	order: inherit;
+
+}
+
+
 #title {
   font-family: 'Megrim', sans-serif;
   font-size: 3.5vw;
