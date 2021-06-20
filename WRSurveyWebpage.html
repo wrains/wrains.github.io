@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  	<style>
+          #MainPage {
+  height: inherit;
+  width: 100%;
+  
+  
+}
+
+
+#main-container {
+  height: 105vh;
+  width: 105%;
+  background-image: url("https://lh3.googleusercontent.com/DY8gUtkZAJUl5fs0zYTPN90EaxtmCNPY7G16iPhMi9JrQiQ856vqshrH81nVlXVtnFaEhXNE0qC95f9McmJrHy-1rClMs6Vn9eM3VuQVB9wbUA47ZrWkyDsZ_7HMvRqdsJdrmgzTKAM=w2400");
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin: -2vw;
+  padding:0;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: -1;
+}
+
+
+#form_box {
+  display: table;
+  text-align: center;
+  background-color: #eb6b34;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+  overflow: auto;
+  
+
+  
+}
+
+
+#description {
+  display: block;
+  margin: auto;
+  
+}
+
+
+.baseinput {
+  border-radius: 5px;
+  
+}
+
+    </style>
+      <meta  charset="UTF-8">
+      <meta name="viewport" content="width=device-width, intial-scale=1.0">
+		<title>Survey Web Page - Will Rains</title>	
+		<link rel="icon" href="WillLogo_favi.png">
+  </head>
+<header>
+	<img src="WillLogo.png" alt="Will Rains Logo" id="logo">
+</header>
+
+
+
+
+
+
+<main id="MainPage">
+  
+  <div id="main-container"></div>
+  
+    <div id="form_box">   
+      <h1 id="title">This is a form page for Things in general</h1>
+    
+      <p id="description">Please fill out this form to provide informationt to some schmuck on some unimportant topic</p>
+      <br><br>
+      <form id="survey-form" action="" method="get">
+        
+        <label for:"name" id="name-label">Enter your name: </label>
+        <input type="text" name="name" id="name" class="baseinput" placeholder="name here" required></input>
+        <br><br>
+        <label for:"email" id="email-label">Enter your email: </label>
+        <input type="email" name="email" id="email" class="baseinput" placeholder="email here" required></input>
+        <br><br>
+        <label for:"number" id="number-label">Enter your phone number: </label>
+        <input type="number" name="number" id="number" class="baseinput" min="10000000000" max="99999999999" placeholder="number here" required></input>
+      
+        <br><br>
+        
+        <label for:"pronouns" id="pronoun-label">Enter your pronouns: </label>
+        <select name="pronouns" id="dropdown" class="baseinput">
+          <option value="she/her">She/her</option>
+          <option value="he/him">He/Him</option>
+          <option value="they/them">They/them</option>
+          <option value="user_choice">Let me type..</option>
+          <option value="opt_out">I prefer not to say</option>
+        </select>
+        
+  
+        <br><br>
+         <label for:"name" id="siblings-label">Pick your range of siblings: </label> <br>
+        <input type="radio" id="1-2" name="name" value="1-2">
+        <label for="1-2">1-2</label><br>
+        <input type="radio" id="3-5" name="name" value="3-5">
+        <label for="3-5">3-5</label><br>
+        <input type="radio" id=">5" name="name" value=">5">
+        <label for=">5">More than 5</label>
+  
+  <br><br>
+      <p>Select any of the below that apply:</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+  
+  <br>
+  
+  <label for="SurveyReview">Review of Survey:</label> <br><br>
+
+<textarea id="SurveyReview" name="SurveyReview" rows="4" cols="50" class="baseinput">
+Please enter into this text field any additional comments that you may have
+</textarea>
+  
+  <br>
+  <input id="submit" type="submit">
+  <br><br>
+  
+      </form>
+      
+      
+      
+      
+    </div>
+
+  
+  
+  
+</main>
