@@ -1,0 +1,239 @@
+
+#logo {
+	position: fixed;
+	width: 8vw;
+	height: auto;
+	margin: 1.5vw;	
+}
+
+
+.page1Container {
+	height: 100vh;
+	margin: -1vw;
+	justify-content: center;
+	text-align: center;
+	z-index: -100;
+}
+
+#bgimage {
+	background-image:url('wp2763894-gif-wallpapers-hd.gif'); 
+	background-repeat:repeat;
+	z-index: -1;
+	height: 100vh;
+	margin: -1vw;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+
+.topnav {
+	background-color: #020403;
+	display: flex;
+	flex-direction: row;
+	height: 5vh;
+	align-self: flex-start;
+	justify-content: center;
+	text-align: center;
+	margin: -1vw;
+	
+	font-family: tahoma;
+
+}
+
+
+.topnav a {
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	font-size: 1.5vh;
+	
+
+}
+
+.topnav .active {
+	color: #00cdeb;
+
+
+}
+
+
+#firsta {
+	border-right: 1px solid white;
+	
+
+}
+
+#seconda {
+	border-right: 1px solid white;
+
+}
+
+#thirda {
+	order: inherit;
+
+}
+
+#break1 {
+	order: 2;
+	flex-basis: 100%;
+
+	
+}
+
+
+.PicandTextcontainer {
+	display: flex;
+	align-items:center;
+	justify-content: space-evenly;
+	order: 3;
+}
+
+
+#will_pic1 {
+	order: 1;
+	width: 30vw;
+	height: auto;
+	border-radius: .5vw;
+}
+
+#firstPgTxt {
+	order: 2;
+	color: white;
+	font-size: 3vw;
+	font-family: tahoma;
+}
+
+#page2container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 110vh;
+	margin: -1vw;
+}
+
+#projectpagehead {
+	width: 100vw;
+	height: 15vh;
+	order: 1;
+	text-align: center;
+	font-family: tahoma;
+
+}
+
+
+#proj_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	order: 22;
+	width: 100vw;
+}
+
+
+.projectbox {
+	width: 22vw;
+	height: 40vh;
+	background-color: slategrey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+
+
+#box1 {
+	order: 23;
+	background-image: url("https://lh3.googleusercontent.com/DY8gUtkZAJUl5fs0zYTPN90EaxtmCNPY7G16iPhMi9JrQiQ856vqshrH81nVlXVtnFaEhXNE0qC95f9McmJrHy-1rClMs6Vn9eM3VuQVB9wbUA47ZrWkyDsZ_7HMvRqdsJdrmgzTKAM=w2400");
+  	background-size: cover; 
+  	background-position: center center;
+  	background-repeat: no-repeat;
+	text-align:center;
+	opacity: 100%;
+}
+
+
+#box2 {
+	order: 24;
+	opacity: 50%;
+}
+
+
+#box3 {
+	order: 25;
+	opacity: 50%;
+}
+
+
+.proj_box_titles {
+	position: static;
+	top: 50%;
+	left: 50%;
+	width: auto;
+	text-align: center;
+	color: #00cdeb;
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+	.topnav {
+		
+
+
+	}
+	
+	#bgimage {
+		flex-wrap: wrap;
+		display: flex;		
+
+
+	}
+
+
+
+	
+	.PicandTextcontainer {
+		flex-wrap: wrap;
+		display: flex;
+	
+	}
+
+	#will_pic1 {
+		width: 60vw;
+		height: auto;
+
+	}
+
+	#firstPgTxt {
+		width: 80vw;
+		height: auto;
+		text-align: center;
+		font-size: 7vw;
+		font-family: tahoma;
+	}
+
+	#page2container {
+		height: 250vh;
+
+	}
+	
+	#proj_container {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	.projectbox {
+		width: 51vw;
+		height: 40vh;
+
+	}
+
+
+}
