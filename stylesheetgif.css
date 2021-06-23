@@ -8,7 +8,7 @@
 
 
 .page1Container {
-	height: 100vh;
+	height: 108vh;
 	margin: -1vw;
 	justify-content: center;
 	text-align: center;
@@ -19,7 +19,7 @@
 	background-image:url('wp2763894-gif-wallpapers-hd.gif'); 
 	background-repeat:repeat;
 	z-index: -1;
-	height: 100vh;
+	height: 108vh;
 	margin: -1vw;
 	display: flex;
 	flex-direction: column;
