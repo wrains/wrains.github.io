@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  	<link rel="stylesheet" type="text/css" href="stylesheetgif.css">
       <meta  charset="UTF-8">
       <meta name="viewport" content="width=device-width, intial-scale=1.0">
 		<title>Will Rains Portfolio Website</title>	
 		<link rel="icon" href="WillLogo_favi.png">
   </head>
 <header>
-	<img src="WillLogo.png" alt="Will Rains Logo" id="logo">
+	<img src="circle copy.png" alt="Will Rains Logo" id="logo">
 </header>
 
 
@@ -24,30 +24,44 @@
 			<i class="fa fa-bars"></i>
 		</a>
 	</section>
- 
-  <section class="page1Container"> 
-	<section class="PicandTextcontainer">
+
+
+
+
+    <section class="page1Container"> 
+		<section id="bgimage">	
+        	<section class="PicandTextcontainer">
+            
+                    <img src="Headshot2.jpg" 			 
+                             fluid alt="Will Rains headshot" id="will_pic1" class="shadow1"/>			
+                    <h1 id="firstPgTxt">Will </br> 
+                Rains</h1>
+        	</section>
 		
-				<img src="Headshot2.jpg" 			 
-						 fluid alt="Will Rains headshot" id="will_pic1" class="shadow1"/>			
-				<h1 id="firstPgTxt">Will </br> 
-			Rains</h1>
+		</section>
 	</section>
-</section>
-</main>
+	</main>
 
 <section id="page2container">
 		<h1 id="projectpagehead">Projects</h1>
 		<section id="proj_container">
-			<div onclick="location.href='WRSurveyWebpage.html';" class="projectbox" id="box1"> 
+			<section class="projcol">
+				<div  class="projectbox" id="box1">
+					<img class="projimgs" onclick="location.href='WRSurveyWebpage.html';" src="https://lh3.googleusercontent.com/DY8gUtkZAJUl5fs0zYTPN90EaxtmCNPY7G16iPhMi9JrQiQ856vqshrH81nVlXVtnFaEhXNE0qC95f9McmJrHy-1rClMs6Vn9eM3VuQVB9wbUA47ZrWkyDsZ_7HMvRqdsJdrmgzTKAM=w2400" alt="Survey Project Example HTML CSS">
+					<img class="projimgs" onclick="location.href='WRProd_LandingPage_WKilts.html';" src="welshflag.jpeg" alt="Product Landing Page Example">
+				</div> 
 				<h2 class="proj_box_titles">HTML/CSS Projects</h2>
-			</div> 
-			<div class="projectbox" id="box2"> 
+			 </section>
+			 <section class="projcol">	
+			 	<div class="projectbox" id="box2"></div> 
 				<h2 class="proj_box_titles">React Apps</h2>
-			</div> 
-			<div class="projectbox" id="box3"> 
+			 </section>
+
+			 <section class="projcol">	
+				<div class="projectbox" id="box3"></div> 
 				<h2 class="proj_box_titles">Other</h2>
-			</div> 
+			 </section>	 
+			
 		</section>
 </section>
 </html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+          <style>
+              * {
+  margin: 0;
+  
+  
+}
+
+h1 h2 a p h3 label {
+  color: white;
+  
+  
+}
+
+
+#page {
+  background-color: black;
+  
+}
+
+#spacer {
+  height: 115px;
+  
+  
+}
+
+
+
+#header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  
+}
+
+
+#header-img {
+  width:100px;
+  height: auto;
+  
+}
+
+#page_title {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+#vidbox {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+#wctext {
+  position: block;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  
+  
+}
+
+
+#video {
+  display: block;
+  margin: auto;
+  width: 40vw;
+  height: 30vw;
+}
+
+
+#form {
+  display: table;
+  text-align: center;
+  
+
+}
+
+
+#email-label {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 100vw;
+  
+}
+
+
+
+#email {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+  
+  
+  
+}
+
+.baseinput {
+  border-radius: 5px;  
+  
+}
+
+
+#submit {
+  display: block;
+  margin: auto;
+  
+}
+
+
+#products {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  
+  
+}
+
+.prodimg {
+  border-radius: 5px;  
+  
+  
+}
+
+
+.prod_col {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.imgtitles {
+  color: white;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+
+#cstxt1 {
+  display: block;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 50vw;
+  margin:auto;
+  text-align: center;
+}
+
+#cstxt2 {
+  display: block;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+  text-align: center;
+  
+  
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  #header {
+    flex-wrap: wrap;
+  }
+
+}
+            </style>
+
+
+
+<header id="header">
+    <img src="https://lh3.googleusercontent.com/BEqAYOMLCdTXFTc00tx2-HLeQe6WQfnNAa-qtogvZ8J_fdwLWvkS9zBLt85jZ1ipYNvT92u6A6KW4Pg_8iKhDcZ5cQrNX0D1JEBPONTVB3ul7DGtifgXtjDJHsml30Fu22kxVCs1K2A=w2400" id="header-img" >
+    <h1 id="page_title">Will's Welsh Kilts</h1>  
+    
+    <nav id="nav-bar" >
+      <a class="nav-link" href="#wctext">Home</a> |||||
+      <a class="nav-link" href="#prodanchor">Products</a> |||||
+      <a class="nav-link" href="#cstxt1">Customer Support</a> |||||
+      
+    </nav>
+  </header>
+
+
+
+
+
+<div id="page">
+  <div id="spacer"></div>
+    
+    <div id="vidbox">
+      <h2 id="wctext">The Welsh culture</h2>
+      <iframe id="video" src="https://www.youtube.com/embed/jZokyM8nrSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>  
+<div id="spacer"></div>  
+    
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <label for:"email" id="email-label">If you would like to sign up for our newletter... Enter your email: </label>  
+      <input type="email" name="email" id="email" class="baseinput" placeholder="email here"></input>
+      <input class="baseinput" id="submit" type="submit"></input>
+      </form>
+  
+
+<div id="spacer"></div>
+
+
+  <div id="products">  
+     <div class="prod_col">
+      <img class="prodimg" id="prodanchor" src="https://i.pinimg.com/originals/55/82/6f/55826fe9572cde5631593b70f21805dc.jpg"width= 150px>
+      <h3 class="imgtitles">Product 1</h3>  
+       </div>
+       
+    
+    <div class="prod_col">
+      <img class="prodimg" src="https://i.pinimg.com/originals/55/82/6f/55826fe9572cde5631593b70f21805dc.jpg" width= 150px>
+      <h3 class="imgtitles">Product 2</h3>  
+    
+    </div>
+    
+     <div class="prod_col">
+      <img class="prodimg" src="https://i.pinimg.com/originals/55/82/6f/55826fe9572cde5631593b70f21805dc.jpg" width= 150px>
+       <h3 class="imgtitles">Product 3</h3>  
+      </div>
+    </div>
+
+<div id="spacer"></div>
+
+<h2 id="cstxt1">Please let us know if you need any support with your kilts! Any tears during wild dancing is on you! </h2>
+<p id="cstxt2">You can reach us at +34 999 999 999</p>
+
+
+  
+  </div>

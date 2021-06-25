@@ -1,9 +1,15 @@
+* {
+	margin: 0;
+
+}
+
+
 
 #logo {
 	position: fixed;
-	width: 8vw;
+	width: 15vw;
 	height: auto;
-	margin: 1.5vw;	
+	margin: 0;	
 }
 
 
@@ -19,25 +25,22 @@
 	background-image:url('wp2763894-gif-wallpapers-hd.gif'); 
 	background-repeat:repeat;
 	z-index: -1;
-	height: 108vh;
-	margin: -1vw;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
+	border-radius: 10px;
 }
 
 
 .topnav {
-	background-color: #020403;
+	background-color: #2c496a;
 	display: flex;
 	flex-direction: row;
-	height: 5vh;
 	align-self: flex-start;
 	justify-content: center;
 	text-align: center;
-	margin: -1vw;
-	
 	font-family: tahoma;
 
 }
@@ -172,12 +175,21 @@
 
 
 .proj_box_titles {
-	position: static;
-	top: 50%;
-	left: 50%;
 	width: auto;
 	text-align: center;
 	color: #00cdeb;
+}
+
+.projcol {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.projimgs {
+	border-radius: 10px;
+
+
 }
 
 
