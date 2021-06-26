@@ -19,19 +19,17 @@
 	justify-content: center;
 	text-align: center;
 	z-index: -100;
-}
-
-#bgimage {
-	background-image:url('IrF.gif'); 
-	background-repeat:repeat;
-	z-index: -1;
-	height: 100vh;
+	background-image: url('IrF.gif'); 
+	background-repeat: repeat;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
 	border-radius: 10px;
+
 }
+
 
 
 .topnav {
@@ -115,13 +113,22 @@
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: 110vh;
+	height: 100vh;
 	margin: -1vw;
 }
 
+#one_to_two_trans {
+	background-color: #000008;
+	height: 8vh;
+	width: 100vw;
+	align-self: flex-start;
+
+}
+
+
 #projectpagehead {
 	width: 100vw;
-	height: 15vh;
+	height: 8vh;
 	order: 1;
 	text-align: center;
 	font-family: tahoma;
