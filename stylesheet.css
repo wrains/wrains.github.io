@@ -15,7 +15,6 @@
 
 .page1Container {
 	height: 108vh;
-	margin: -1vw;
 	justify-content: center;
 	text-align: center;
 	z-index: -100;
@@ -26,7 +25,6 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	text-align: center;
-	border-radius: 10px;
 
 }
 
@@ -117,6 +115,24 @@
 
 }
 
+.socials_text {
+	text-decoration: unset;
+	color: white;
+	display: inline;
+
+}
+
+#github_img {
+	filter: invert(100%);
+
+
+}
+
+.indiv_socials_boxes {
+	cursor: pointer;
+
+
+}
 
 
 
