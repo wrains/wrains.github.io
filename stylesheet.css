@@ -128,8 +128,9 @@
 
 }
 
-.indiv_socials_boxes {
+.indiv_socials_boxes:hover {
 	cursor: pointer;
+	
 
 
 }
@@ -226,10 +227,17 @@
 	height: 10vh;
 	width: 100%;
 	opacity: 50%;
+	
+
+}
+
+.projimgs:hover {
 	cursor: pointer;
 
 
+
 }
+
 
 
 @media only screen and (max-width: 768px) {
