@@ -254,6 +254,15 @@ a, p {
 }
 
 
+@media only screen and (max-width: 1100px) {
+	.PicandTextcontainer {
+		height: 20%;
+		display: flex;
+		align-items:flex-end;
+		justify-content: space-evenly;
+		order: 3;
+	}
+
 
 
 
@@ -330,14 +339,7 @@ a, p {
 
 }
 
-@media only screen and (max-width: 1100px) {
-	.PicandTextcontainer {
-		height: 20%;
-		display: flex;
-		align-items:flex-end;
-		justify-content: space-evenly;
-		order: 3;
-	}
+
 
 	
 
