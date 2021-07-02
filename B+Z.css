@@ -1,70 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-#main {
-  
-  height: inherit;
-  
 }
+
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
 
 
 .topnav {
-	display: flex;
-	flex-direction: row;
-	height: 5vh;
-	align-self: flex-start;
-	justify-content: center;
+  background-color: white;
+	display: block;
+	width: 100%;
+	position: fixed;
 	text-align: center;
-	margin: -1vw;
-	
-	font-family: tahoma;
+  font-family: tahoma;
+  padding: 0 0 16px 0;
 
 }
 
+/* .topnav {
+	background-color: #000008;
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	justify-content: center;
+	text-align: center;
+	font-family: tahoma;
+
+} */
+
 
 .topnav a {
-  	color: black;
+  	color: #000000;
   	text-align: center;
-  	padding: 14px 16px;
+  	padding: 15px 16px 5px 16px;
   	text-decoration: none;
 	font-size: 1.5vh;
+	border-radius: 10px;
 	
 
 }
 
 .topnav .active {
-	color: #00cdeb;
+	color: #000008;
+	background: #00cdeb;
 
 
 }
 
-
-#firsta {
-	border-right: 1px solid black;
-	
-
-}
-
-#seconda {
-	border-right: 1px solid black;
-
-}
-
-#thirda {
-	order: inherit;
+#spacer {
+  width: 100%;
+  height: 30px;
 
 }
 
 
-#title {
+#content_box1 {
+  
+
+
+}
+
+#title_text {
   font-family: 'Megrim', sans-serif;
   font-size: 3.5vw;
   text-align:center;
-  position: block;
+  display: block;
 }
 
 
-#title_text {
+#title_text2 {
   text-align:center;
   display: block;
   
