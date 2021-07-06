@@ -52,7 +52,7 @@ h1 {
 .topnav {
 
 
-	background-color: #000008;
+	background-color: #0f0e17;
 	display: block;
 	width: 100%;
 	position: fixed;
@@ -175,20 +175,6 @@ h1 {
 
 
 
-.projectbox {
-	width: 250px;
-	height: 280px;
-	background-color: rgba(242,242,242,.15);
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	border-radius: 10px;
-
-}
-
-
-
-
 .proj_box_titles {
 	width: auto;
 	text-align: center;
@@ -205,9 +191,21 @@ h1 {
 
 }
 
+.projectbox {
+	width: 250px;
+	height: 280px;
+	background-color: rgba(242,242,242,.15);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-radius: 10px;
+	border: .5px solid #e53170;
+}
+
+
 .projimgs {
 	width: 25%;
-	height: 25%;
+	height: 20%;
 	margin: 10px;
 	border-radius: 5px;
 
