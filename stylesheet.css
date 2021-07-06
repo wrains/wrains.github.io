@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
 }
 
 html, body {
@@ -12,19 +15,13 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: tahoma;
 	color: white;
 
 }
 
 h1 {
 	font-size: 3rem;
-
-}
-
-a, p {
-	font-family: 'Merriweather', sans-serif;
-
+	font-weight: 700;
 }
 
 
@@ -38,7 +35,6 @@ a, p {
 
 .page1Container {
 	height: 100%;
-	justify-content: center;
 	text-align: center;
 	z-index: -100;
 	background-image: url('IrF.gif'); 
@@ -46,7 +42,7 @@ a, p {
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: center;
 	text-align: center;
 
 }
@@ -64,17 +60,6 @@ a, p {
 	font-family: tahoma;
 
 }
-
-/* .topnav {
-	background-color: #000008;
-	display: flex;
-	flex-direction: row;
-	align-self: flex-start;
-	justify-content: center;
-	text-align: center;
-	font-family: tahoma;
-
-} */
 
 
 .topnav a {
@@ -98,11 +83,11 @@ a, p {
 
 
 .PicandTextcontainer {
-	height: 50%;
 	display: flex;
 	align-items:flex-end;
 	justify-content: space-evenly;
 	order: 3;
+	height: 60vh;
 }
 
 
@@ -110,7 +95,7 @@ a, p {
 	order: 1;
 	width: 30%;
 	height: auto;
-	border-radius: .5vw;
+	border-radius: 5px;
 }
 
 #firstPgTxt {
@@ -121,10 +106,12 @@ a, p {
 #socials {
 	display: flex;
 	flex-direction: row;
-	width: 100vw;
+	align-self: flex-end;
+	width: 100%;
+	height: 30vh;
 	justify-content: center;
+	align-items: center;
 	order: 5;
-
 
 }
 
@@ -254,18 +241,6 @@ a, p {
 }
 
 
-@media only screen and (max-width: 1100px) {
-	.PicandTextcontainer {
-		height: 20%;
-		display: flex;
-		align-items:flex-end;
-		justify-content: space-evenly;
-		order: 3;
-	}
-
-
-
-
 @media only screen and (max-width: 768px) {
 	
 	#logo {
@@ -292,16 +267,16 @@ a, p {
 	}
 
 	#will_pic1 {
-		width: 60vw;
+		width: 45vw;
 		height: auto;
 
 	}
 
 	#firstPgTxt {
-		width: 80vw;
+		width: 60vw;
 		height: auto;
 		text-align: center;
-		font-size: 7vw;
+		font-size: 5vw;
 	}
 
 	#page2container {
