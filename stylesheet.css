@@ -93,6 +93,7 @@ h1 {
 
 #will_pic1 {
 	order: 1;
+	margin-left: 20%;
 	width: 30%;
 	height: auto;
 	border-radius: 5px;
@@ -101,6 +102,9 @@ h1 {
 #firstPgTxt {
 	order: 2;
 	color: white;
+	width: 50%;
+	text-align: center;
+	
 }
 
 #socials {
@@ -206,8 +210,8 @@ h1 {
 
 
 .projimgs {
-	width: 25%;
-	height: 20%;
+	width: 62px;
+	height: 55px;
 	margin: 10px;
 	border-radius: 5px;
 
@@ -247,16 +251,17 @@ h1 {
 	}
 
 	#will_pic1 {
-		width: 45vw;
+		width: 240px;
 		height: auto;
+		margin-left: 0;
 
 	}
 
 	#firstPgTxt {
-		width: 60vw;
+		width: 60%;
 		height: auto;
 		text-align: center;
-		font-size: 5vw;
+		font-size: 2rem;
 	}
 
 	#page2container {
