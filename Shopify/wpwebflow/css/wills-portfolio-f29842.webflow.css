@@ -538,6 +538,13 @@ figcaption {
   font-weight: 500;
 }
 
+#projects_section_mainpage {
+
+color: #000000;
+
+}
+
+
 .blog-post-thumbnail-featured {
   max-height: 500px;
 }
