@@ -147,7 +147,7 @@ figcaption {
 }
 
 .section.filled {
-  background-color: #000;
+  background-color: #0f0e17;
   color: #fff;
 }
 
@@ -317,6 +317,48 @@ figcaption {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+#will_hs_cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0f0e17;
+  padding: 80px 0 80px 0;
+}
+
+#will_hs_cont > h2 {
+  display: inline;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+
+}
+
+#willhstext1 {
+  font-size: 2rem;
+
+}
+
+#willhstext2 {
+  font-size: 1.75rem;
+
+}
+
+
+#will_HS {
+  display: inline;
+  width: 40%;
+
+
+}
+
+#spacer_willhs_bottom {
+  height: 10vh;
+
+
+}
+
+
+
 .full-width-image {
   width: 100%;
   margin-top: -70px;
@@ -388,6 +430,50 @@ figcaption {
   color: rgba(0, 0, 0, 0.6);
 }
 
+#services_cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0f0e17;
+  padding: 80px 0 80px 0;
+
+
+}
+
+#services_text_cont > h2 {
+  display: inline;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+
+}
+
+#services_text_cont > ul {
+  list-style-type: none;
+
+}
+
+#services_text_cont > ul li::before {
+  content: '☑️ ';
+  
+}
+
+.serv_items {
+  font-size: 1rem;
+  padding: 0;
+
+
+}
+
+
+#services_pic {
+  border-radius: 5px;
+  width: 40%;
+
+
+}
+
+
 .project-list-1-per-line {
   display: -ms-grid;
   display: grid;
@@ -436,6 +522,12 @@ figcaption {
   max-height: 500px;
   margin-top: 50px;
 }
+
+#skills, #skills1 {
+  background-color: #3375FE;
+
+}
+
 
 .menu-grid {
   display: -ms-grid;
@@ -488,7 +580,7 @@ figcaption {
 }
 
 .color-tile.color-primary {
-  background-color: #000;
+  background-color: #0f0e17;
   color: #000;
 }
 
@@ -500,7 +592,7 @@ figcaption {
 }
 
 .color-tile.color-hover {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #0f0e17;
 }
 
 .small-text {
