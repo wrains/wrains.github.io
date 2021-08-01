@@ -340,17 +340,23 @@ figcaption {
 }
 
 #willstext1 {
-  font-size: 1.75rem;
+  margin-bottom: 0;
+  font-size: 2.25rem;
   color: white;
+  font-weight: 400;
+
 }
 
 #willstext2 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 3rem;
   color: white;
 }
 
 
 #willstext3 {
+  margin-top: 0;
   font-size: 1.75rem;
   color: white;
 }
@@ -383,7 +389,7 @@ figcaption {
   }
   
   #willstext1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
   }
   
