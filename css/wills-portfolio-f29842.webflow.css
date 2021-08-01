@@ -331,22 +331,28 @@ figcaption {
   padding: 80px 0 80px 0;
 }
 
-#will_hs_cont > h2 {
+#will_hs_cont > div {
   display: inline;
   font-size: 4rem;
   text-align: center;
   color: white;
-
+  margin: 0;
 }
 
-#willhstext1 {
-  font-size: 2rem;
-
-}
-
-#willhstext2 {
+#willstext1 {
   font-size: 1.75rem;
+  color: white;
+}
 
+#willstext2 {
+  font-size: 3rem;
+  color: white;
+}
+
+
+#willstext3 {
+  font-size: 1.75rem;
+  color: white;
 }
 
 
@@ -376,16 +382,21 @@ figcaption {
   
   }
   
-  #willhstext1 {
+  #willstext1 {
     font-size: 1.2rem;
-  
+    color: white;
   }
   
   #willhstext2 {
-    font-size: 1.2rem;
-  
+    font-size: 1.75rem;
+    color: white;
   }
-  
+
+
+  #willstext3 {
+    font-size: 1.2rem;
+    color: white;
+  }
   
   #will_HS {
     display: inline;
