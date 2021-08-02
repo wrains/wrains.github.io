@@ -718,6 +718,26 @@ figcaption {
   font-weight: 500;
 }
 
+.img_proj {
+  transition: all 1s ease;
+  position: relative;
+
+
+}
+
+.img_proj:hover {
+  cursor: pointer;
+  opacity: 50%;
+  
+
+}
+
+#demo_video_click_text {
+  text-align: center;
+
+}
+
+
 #projects_section_mainpage {
 
 color: #000000;
