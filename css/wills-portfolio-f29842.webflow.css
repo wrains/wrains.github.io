@@ -11,7 +11,7 @@
 }
 
 #WRSiteLogo {
-  width: 30%;
+  width: 45%;
 
 }
 
@@ -361,6 +361,12 @@ figcaption {
   color: white;
 }
 
+#willstext1, #willstext2, #willstext3 {
+  margin: 0 5vw 0 5vw;
+
+
+}
+
 
 #will_HS {
   display: inline;
@@ -379,20 +385,20 @@ figcaption {
   #will_hs_cont {
     flex-direction: column;
   }
-  
+
   #will_hs_cont > h2 {
     display: inline;
     font-size: 2rem;
     text-align: center;
     color: white;
-  
+
   }
-  
+
   #willstext1 {
     font-size: 1.5rem;
     color: white;
   }
-  
+
   #willhstext2 {
     font-size: 1.75rem;
     color: white;
@@ -403,18 +409,18 @@ figcaption {
     font-size: 1.2rem;
     color: white;
   }
-  
+
   #will_HS {
     display: inline;
     width: 60%;
-  
-  
+
+
   }
-  
+
   #spacer_willhs_bottom {
     height: 10vh;
-  
-  
+
+
   }
 
 
@@ -517,7 +523,7 @@ figcaption {
 
 #services_text_cont > ul li::before {
   content: '☑️ ';
-  
+
 }
 
 .serv_items {
@@ -538,25 +544,25 @@ figcaption {
 @media only screen and (max-width: 600px) {
   #services_cont {
     flex-direction: column;
-  
+
   }
-  
+
   #services_text_cont > h2 {
     display: inline;
     font-size: 2.5rem;
     text-align: center;
     color: white;
-  
+
   }
-  
-  
-  
-  
+
+
+
+
   #services_pic {
     width: 60%;
     margin-bottom: 80px;
-  
-  
+
+
   }
 
 
@@ -728,7 +734,7 @@ figcaption {
 .img_proj:hover {
   cursor: pointer;
   opacity: 50%;
-  
+
 
 }
 
@@ -863,6 +869,20 @@ color: #000000;
     font-size: 60px;
   }
 
+  #willstext1 {
+    font-size: 48px;
+
+  }
+
+  #willstext2 {
+    font-size: 55px;
+  }
+
+
+  #willstext3 {
+    font-size: 25px;
+  }
+
   .grid-halves {
     grid-column-gap: 40px;
     grid-row-gap: 40px;
@@ -955,6 +975,20 @@ color: #000000;
     font-size: 48px;
   }
 
+  #willstext1 {
+    font-size: 26px;
+
+  }
+
+  #willstext2 {
+    font-size: 35px;
+  }
+
+
+  #willstext3 {
+    font-size: 18px;
+  }
+
   .big-text.less-bottom-padding {
     margin-bottom: 10px;
   }
@@ -1032,6 +1066,20 @@ color: #000000;
     font-size: 36px;
   }
 
+  #willstext1 {
+    font-size: 22px;
+
+  }
+
+  #willstext2 {
+    font-size: 30px;
+  }
+
+
+  #willstext3 {
+    font-size: 14px;
+  }
+
   .navigation-cta {
     padding-left: 20px;
   }
@@ -1070,4 +1118,3 @@ color: #000000;
     justify-self: end;
   }
 }
-
