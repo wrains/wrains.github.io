@@ -334,7 +334,6 @@ figcaption {
 #will_hs_cont > div {
   display: inline;
   font-size: 4rem;
-  text-align: center;
   color: white;
   margin: 0;
 }
@@ -343,7 +342,7 @@ figcaption {
   margin-bottom: 0;
   font-size: 2.25rem;
   color: white;
-  font-weight: 400;
+  font-weight: 500;
 
 }
 
@@ -351,7 +350,8 @@ figcaption {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 3rem;
-  color: white;
+  color: #636363;
+
 }
 
 
