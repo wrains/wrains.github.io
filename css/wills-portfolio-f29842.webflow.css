@@ -371,6 +371,7 @@ figcaption {
 #will_HS {
   display: inline;
   width: 40%;
+  border-radius: 100%;
 
 
 }
