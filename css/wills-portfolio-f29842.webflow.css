@@ -331,7 +331,7 @@ figcaption {
   padding: 80px 0 80px 0;
 }
 
-#will_hs_cont > div {
+#will_hs_cont>div {
   display: inline;
   font-size: 4rem;
   color: white;
@@ -361,7 +361,9 @@ figcaption {
   color: white;
 }
 
-#willstext1, #willstext2, #willstext3 {
+#willstext1,
+#willstext2,
+#willstext3 {
   margin: 0 5vw 0 5vw;
 
 
@@ -387,7 +389,7 @@ figcaption {
     flex-direction: column;
   }
 
-  #will_hs_cont > h2 {
+  #will_hs_cont>h2 {
     display: inline;
     font-size: 2rem;
     text-align: center;
@@ -498,48 +500,42 @@ figcaption {
   color: rgba(0, 0, 0, 0.6);
 }
 
-#services_cont {
+#services-div>h3 {
+  color: #fff;
+}
+
+#services-div>div {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #0f0e17;
-  padding: 80px 0 80px 0;
-
+  flex-wrap: wrap;
+  justify-content: space-between;
 
 }
 
-#services_text_cont > h2 {
-  display: inline;
-  font-size: 4rem;
+#services-div>div>p {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 250px;
   text-align: center;
-  color: white;
-
-}
-
-#services_text_cont > ul {
-  list-style-type: none;
-
-}
-
-#services_text_cont > ul li::before {
-  content: '☑️ ';
-
+  margin: 10px auto;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .serv_items {
   font-size: 1rem;
   padding: 0;
+  list-style-type: none;
 
 
 }
 
-
-#services_pic {
-  border-radius: 5px;
-  width: 40%;
-
-
+.services-icons {
+  width: 20%;
 }
+
 
 @media only screen and (max-width: 600px) {
   video {
@@ -549,28 +545,6 @@ figcaption {
   }
 
 
-  #services_cont {
-    flex-direction: column;
-
-  }
-
-  #services_text_cont > h2 {
-    display: inline;
-    font-size: 2.5rem;
-    text-align: center;
-    color: white;
-
-  }
-
-
-
-
-  #services_pic {
-    width: 60%;
-    margin-bottom: 80px;
-
-
-  }
 
 
 }
@@ -624,7 +598,8 @@ figcaption {
   margin-top: 50px;
 }
 
-#skills, #skills1 {
+#skills,
+#skills1 {
   background-color: #3375FE;
 
 }
@@ -753,7 +728,7 @@ figcaption {
 
 #projects_section_mainpage {
 
-color: #000000;
+  color: #000000;
 
 }
 
@@ -1124,4 +1099,15 @@ color: #000000;
     -ms-grid-column-align: end;
     justify-self: end;
   }
+}
+
+#image-credits {
+  width: 25%;
+  float: right;
+  margin: auto;
+}
+
+#image-credits>a {
+  font-size: xx-small;
+
 }
